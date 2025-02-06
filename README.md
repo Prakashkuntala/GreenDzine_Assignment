@@ -6,6 +6,7 @@ In the project directory, you can run:
 
 npm start
 Runs the app in the development mode.
+https://alam-greendzine.netlify.app/
 Open http://localhost:3000 to view it in your browser.
 
 The page will reload when you make changes.

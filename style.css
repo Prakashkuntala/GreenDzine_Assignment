@@ -1,0 +1,142 @@
+.timeline-landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-color: #f7f9fc; 
+    text-align: center;
+}
+.otp-div {
+    background: #224564;
+    padding: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.otp-heading {
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+    color: #ece3e3;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border: 1px solid #315d88;
+    border-radius: 4px;
+}
+
+.otp-error {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    display: block;
+}
+
+button.otp-verify-email,
+button.otp-login {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.otp-verify-email:hover,
+button.otp-login:hover {
+    background-color: #0056b3;
+}
+
+.otp-input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.otp-input-container input {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    margin: 0 5px;
+}
+
+@media (max-width: 576px) {
+    .otp-div {
+        padding: 15px;
+    }
+
+    .otp-heading {
+        font-size: 1.5rem;
+    }
+}
+
+body {
+    background-color: #f0f0f0; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* .otp-div {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+} */
+
+/* .otp-heading {
+    font-size: 2rem;
+    color: #007F3E; 
+    text-align: center;
+} */
+
+.otp-error {
+    color: red;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+.otp-input-container input {
+    text-align: center;
+}
+
+.header-logo {
+    text-align: center;
+    color: #007F3E;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.otp-login {
+    background-color: #007F3E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.otp-verify-email {
+    background-color: #007F3E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
